@@ -17,7 +17,7 @@ vector<string> split(string s, string delimiter) {
 }
 
 void part1(const vector<string>& lines) {
-    int res;
+    int res = 0;
 
     for (const string& line : lines) {
         size_t t = line.find(":");
@@ -52,7 +52,7 @@ void part1(const vector<string>& lines) {
 }
 
 void part2(const vector<string>& lines) {
-    int res;
+    int res = 0;
 
     for (const string& line : lines) {
         size_t t = line.find(":");
